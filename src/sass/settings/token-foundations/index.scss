@@ -1,0 +1,42 @@
+@import './colors';
+@import './fonts';
+
+// CULQUIER TIPO DE VARIABLES (EN CASO DE HABER MUCHAS SERÍA BUENO DIVIDIRLAS EN OTRAS HOJAS MÁS ESPECÍFICAS, POR EJEMPLO: COLORES, VARIABLES DE ELEMENTOS UI, VARIABLES DE CONTENEDORES,...)
+
+$opacity-zero: 0;
+$opacity-010: 0.1;
+$opacity-020: 0.2;
+$opacity-030: 0.3;
+$opacity-040: 0.4;
+$opacity-050: 0.5;
+$opacity-060: 0.6;
+$opacity-070: 0.7;
+$opacity-080: 0.8;
+$opacity-090: 0.9;
+$opacity-100: 1;
+
+
+// BREAKPOINTS
+// Para usarlos en las @media de layouts y componentes
+// y que así siempre sean los mismos. Están además configuradas
+// las @medias en mixins.
+
+$screen-xs-min: 576px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+$screen-xl-min: 1400px;
+
+$media-desktop: 1200px;
+$media-tablet: 769px;
+$media-mobile: 640px;
+
+
+// SHADOWS
+
+$shadow-1: 0px 0px 0px hsl(0deg 0% 0% / 0.5);
+$shadow-2: 1.6px 3.2px 3.2px hsl(0deg 0% 0% / 0.45);
+$shadow-3: 3.2px 6.4px 6.4px hsl(0deg 0% 0% / 0.4);
+$shadow-4: 4.8px 9.6px 9.6px hsl(0deg 0% 0% / 0.35);
+$shadow-5: 6.4px 12.8px 12.8px hsl(0deg 0% 0% / 0.3);
+$shadow-6: 8px 16px 16px hsl(0deg 0% 0% / 0.25);

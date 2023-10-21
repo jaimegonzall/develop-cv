@@ -1,0 +1,55 @@
+// FUENTES: Font face de las fuentes a usar, Nucleo,...
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+$font-family-sans: 'Inter', Helvetica, sans-serif;
+$font-family-serif: 'Times New Roman', Times, serif;
+$font-family-monospace: 'Lucida Console', 'Courier New', monospace;
+
+$font-size-root: 12px !default;
+
+$font-size-xs: 0.75rem !default;
+$font-size-sm: 0.875rem !default;
+$font-size-base: 1rem !default;
+$font-size-lg: 1.15rem !default;
+$font-size-xl: 1.65rem !default;
+
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-weight-700: 700;
+$font-weight-800: 800;
+
+$letter-spacing-none: normal;
+$letter-spacing-s: 0.3em;
+$letter-spacing-m: 0.8em;
+
+$text-transform-none: none;
+$text-transform-uppercase: uppercase;
+$text-transform-capitalize: capitalize;
+$text-transform-lowercase: lowercase;
+
+$text-decoration-none: none;
+$text-decoration-through: line-through;
+$text-decoration-underline: underline;
+
+$line-height-sm: 1.2 !default;
+$line-height-base: 1.5 !default;
+$line-height-lg: 1.8 !default;
+
+$paragraph-spacing-xxs: 2px;
+$paragraph-spacing-xs: 4px;
+$paragraph-spacing-sm: 8px;
+$paragraph-spacing-md: 12px;
+
+// TOKEN DECISIONS
+
+$font-size-h1: 2.488rem !default;
+$font-size-h2: 2.074rem !default;
+$font-size-h3: 1.728rem !default;
+$font-size-h4: 1.44rem !default;
+$font-size-h5: 1.2rem !default;
+$font-size-h6: 1rem !default;
+
+$font-weight-base: $font-weight-400;
+$font-weight-title: $font-weight-600;

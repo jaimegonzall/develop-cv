@@ -1,0 +1,23 @@
+// ESTILOS GLOBALES DENTRO DE LA APP
+
+textarea {
+  resize: vertical;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.pre-style {
+  display: inline;
+  padding: 2px 6px;
+  font-family: monospace, monospace;
+  white-space: break-spaces;
+  background-color: silver;
+}

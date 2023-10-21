@@ -1,0 +1,49 @@
+// primary colors
+$primary: #289942;
+$color-link: #458FFF;
+
+// neutral colors
+$white: #ffffff;
+$black: #000000;
+
+$color-neutral-00: lighten($black, 0%);
+$color-neutral-02: lighten($black, 2%);
+$color-neutral-05: lighten($black, 5%);
+$color-neutral-10: lighten($black, 10%);
+$color-neutral-15: lighten($black, 15%);
+$color-neutral-20: lighten($black, 20%);
+$color-neutral-25: lighten($black, 25%);
+$color-neutral-30: lighten($black, 30%);
+$color-neutral-35: lighten($black, 35%);
+$color-neutral-40: lighten($black, 40%);
+$color-neutral-45: lighten($black, 45%);
+$color-neutral-50: lighten($black, 50%);
+$color-neutral-55: lighten($black, 55%);
+$color-neutral-60: lighten($black, 60%);
+$color-neutral-65: lighten($black, 65%);
+$color-neutral-70: lighten($black, 70%);
+$color-neutral-75: lighten($black, 75%);
+$color-neutral-80: lighten($black, 80%);
+$color-neutral-85: lighten($black, 85%);
+$color-neutral-90: lighten($black, 90%);
+$color-neutral-95: lighten($black, 95%);
+$color-neutral-100: lighten($black, 100%);
+
+// ------------ LINK COLORS ------------
+$color-link-light-20: lighten($color-link, 20%);
+$color-link-light-50: lighten($color-link, 50%);
+$color-link-dark-20: darken($color-link, 20%);
+$color-link-dark-30: darken($color-link, 30%);
+$color-link-dark-50: darken($color-link, 50%);
+
+$body-bg: $white;
+$content-primary: $color-neutral-20;
+$hr-border-color: $color-neutral-80;
+
+// LINKS
+$link-color: $color-link;
+$link-hover: $color-link-dark-20;
+$link-hover-bg: $color-link-light-20;
+$link-focus: $color-link-dark-30;
+$link-decoration: $color-link-dark-50;
+
