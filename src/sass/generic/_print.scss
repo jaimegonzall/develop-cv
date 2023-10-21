@@ -1,3 +1,30 @@
 // Welcome to Compass. Use this file to define print styles.
 // Import this file using the following HTML or equivalent:
 // <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+
+ @page {
+  size: A4 portrait;
+  margin-top: 4mm;
+  margin-bottom: 8mm;
+  margin-left: 10mm;
+  margin-right: 10mm;
+  counter-increment: page;
+}
+
+@media print {
+  :root {
+    font-size: 11px !important;
+  }
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    max-width: 100%;
+    height: max-content;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: none;
+  }
+}  
